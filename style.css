@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(31, 69, 96);
+}
+h1 {
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-header {
+  text-align: center;
+  margin: none;
+  background-image: url(fon_2.jpg);
+}
+a {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  font-size: 20px;
+  background-color: rgb(31, 69, 96);
+  border-radius: 20% 20%;
+  margin: 2%;
+}
+a:hover {
+  color: bisque;
+  background-color: rgb(26, 18, 90);
+  border: #999 solid 2px;
+  border-radius: 20% 20%;
+}
+.row {
+  background-color: rgb(115, 157, 187);
+  display: flex;
+  align-items: baseline;
+}
+.card {
+  border: solid 1px #999;
+  background-color: rgb(160, 226, 231);
+  color: rgb(7, 7, 144);
+  margin: 2%;
+  border-radius: 10% 10%;
+}
+.card:hover {
+  border: double 4px #999;
+  background-color: rgb(26, 18, 90);
+  color: rgb(160, 226, 231);
+}
+img {
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+  padding: 4%;
+  border-radius: 10% 10%;
+}
+.card-footer {
+  background-color: rgb(31, 69, 96);
+  color: rgb(115, 157, 187);
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 600;
+  opacity: 0.7;
+}
+p {
+  font-size: 22px;
+  text-align: justify;
+}
+.btn {
+  background-color: rgb(215, 213, 134);
+  color: rgb(75, 67, 58);
+  font-size: 20px;
+  border-radius: 30% 30%;
+}
+.btn:hover {
+  background-color: rgb(121, 62, 230);
+  color: bisque;
+}
